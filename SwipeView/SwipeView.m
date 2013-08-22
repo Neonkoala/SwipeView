@@ -72,7 +72,6 @@
 @property (nonatomic, strong) NSMutableSet *itemViewPool;
 @property (nonatomic, assign) NSInteger previousItemIndex;
 @property (nonatomic, assign) CGPoint previousContentOffset;
-@property (nonatomic, assign) CGFloat scrollOffset;
 @property (nonatomic, assign) CGSize itemSize;
 @property (nonatomic, assign) BOOL suppressScrollEvent;
 @property (nonatomic, assign) NSTimeInterval scrollDuration;

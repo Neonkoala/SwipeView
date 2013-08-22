@@ -60,6 +60,7 @@ SwipeViewAlignment;
 @property (nonatomic, readonly) NSInteger numberOfItems;
 @property (nonatomic, readonly) NSInteger numberOfPages;
 @property (nonatomic, readonly) CGSize itemSize;
+@property (nonatomic, assign) CGFloat scrollOffset;
 @property (nonatomic, assign) NSInteger itemsPerPage;
 @property (nonatomic, assign) BOOL truncateFinalPage;
 @property (nonatomic, strong, readonly) NSArray *indexesForVisibleItems;
